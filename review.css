@@ -1,0 +1,29 @@
+img {width: 80px
+}
+body {
+    background-color: white;
+}
+h1 {
+    font-size: 24px;
+}
+h2 {
+    font-size: 16px;
+}
+p {
+    font-size: 14px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container li {
+    width: 50%;
+}
+@media (max-width: 460px) {
+    .container li {
+    width: 100%;
+    }
+    img {
+        width: 120px;
+    }
+}
