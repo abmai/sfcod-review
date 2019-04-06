@@ -23,4 +23,7 @@ p {
     .container li {
     width: 100%;
     }
+    img {
+        width: 120px;
+    }
 }
