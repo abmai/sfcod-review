@@ -1,0 +1,40 @@
+body {
+    font-family: Helvetica;
+    color: #4a4e4b;
+}
+
+h1 {
+    font-size: extra-large;
+    color: #4a4e4b;
+}
+
+p {
+    font-size: medium;
+}
+
+.byline {
+    color: grey;
+}
+
+img {
+    width: 100px;
+}
+
+ol {
+    font-size: medium;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    width: 50%;
+}
+
+@media (max-width:480px) {
+    li {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+}
