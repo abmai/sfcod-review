@@ -1,0 +1,16 @@
+body {
+    background-color: white;
+}
+
+img {
+    width: 80px;
+}
+
+ol {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    width: 50%;
+}
