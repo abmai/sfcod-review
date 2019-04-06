@@ -1,0 +1,26 @@
+h1{
+    color: #444;
+}
+body{
+    font-family: Roboto;
+    color: Grey;
+}
+img{
+    width: 80px;
+}
+
+ol{
+    font-size: larger;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+li{
+    width:40%;
+}
+
+@media (max-width: 480px){
+    li {
+        width:90%;
+    }
+}
